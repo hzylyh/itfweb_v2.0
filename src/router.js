@@ -10,8 +10,13 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: 'portal',
       component: () => import('./views/portal/index.vue')
+    },
+    {
+      path: '/',
+      name: 'case',
+      component: () => import('./views/case/index.vue')
     },
     {
       path: '/about',
