@@ -14,7 +14,7 @@ export default new Router({
       component: () => import('./views/portal/index.vue')
     },
     {
-      path: '/',
+      path: '/case',
       name: 'case',
       component: () => import('./views/case/index.vue')
     },
